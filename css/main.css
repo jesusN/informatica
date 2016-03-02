@@ -1,0 +1,125 @@
+body{
+	font-family: 'Bree Serif', serif;
+}
+
+img{
+	max-width: 100%;
+}
+.quitar-float{ 
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 50px;
+}
+.pacifico{
+	font-family: 'Lobster', cursive;
+}
+.se-gris{
+	background-color: #eee;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.blue{
+	color: #086A87;
+}
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;;
+	margin-right: -4px;
+}
+.espacio-derecha{
+	margin-right: 10px;
+	text-align: center; 
+}
+a{
+	color: 2441FF;
+	padding: 5px 10px;
+}
+.login{
+	width: 100%;
+}
+fieldset{
+	width: 30%;
+	margin: 20px auto;
+	background: #fff;
+}
+legend{
+	background: #0489B1;
+	padding: 2px 4px;
+	border-radius: 0px  0px 5px 5px;
+}
+.label{
+	background: #086A87;
+	width: 120px;
+	text-align: right;
+	margin: 10px 10px;
+	padding: 7px 7px;
+	border: 3px 3px;
+	tex
+}
+footer{
+	background: #086A87;
+	margin: 50px;
+	padding: 2px;
+	border: 5px 5px;
+}
+footer, ul, li {
+	list-style-type: none;
+	text-align: left;
+
+}
+section{
+	padding: none;
+}
+.espacio{
+	margin: 4px 4px;
+	padding: 2px 2px;
+}
+.izquierda{
+	text-align: left;
+}
+.derecha{
+	text-align: right;
+}
+nav, ul, a{
+	margin-left: 20px;
+}
+header{
+	margin: 30px;
+}
+.margen-arriba{
+	margin-top: 150px;
+
+}
+#registro {
+	text-align: center;
+}
+fieldset{
+	width: 50%;
+	margin: 80px auto;
+	background: darkturquoise;
+	border-color: black;
+	border: 5px 5px;
+}
+.azul{
+	background: darkturquoise;
+	margin: 50px;
+	padding: 2px;
+	border: 5px 5px;
+}
+aside, img{
+	float: center;
+
+}
+.boton{
+	background: #086A87;
+
+}
+.color{
+	background-color: #04B4AE;
+}

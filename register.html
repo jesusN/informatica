@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<title>Registro</title>
+</head>
+<body>
+	<div class="center-block quitar-float text-center espacio-arriba">
+		<header class="header">
+			
+		</header>
+		<nav class="se-gris padding-largo text-center">
+			<ul class="no-lista">
+				<a href="login.html" class="inline-block">Volver</a>
+			</ul>
+		</nav>
+		<aside>
+		<h1 class="pacifico blue">¡Bienvenido a tu pagina de facturación!</h1>
+		<img src="imagenes/factura.jpg">
+		</aside>
+		<section>
+			<h2>Registro de Usuario</h2>
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<form action="login.html" method="POST" autocomplete="off">
+					<div class="espacio">
+						<label for="nombre" class="label">Nombre</label>
+						<input id="nombre" type="text" name="pass" value="" title="Escriba aqui su nombre" placeholder="Nombre">
+					</div>
+					<div class="espacio">
+						<label for="Apellido" class="label">Apellido</label>
+						<input id="Apellido" type="text" name="Apellido"  placeholder="Apellido">
+					</div>
+					<div class="espacio">
+						<label for="ci" class="label">C.I</label>
+						<input id="ci" type="number" name="ci" placeholder="Cédula de Identidad" min="1" max="30000000">
+					</div>
+					<div class="espacio">
+						<label for="direccion" class="label">Dirección</label>
+						<input id="pass" type="" name="direccion" placeholder="Direccion">
+					</div>
+					<div class="espacio">
+						<label for="cargo" class="label">Cargo</label>
+						<input id="pass" type="text" name="cargo"  placeholder="Cargo que ejerce en la empresa">
+					</div>
+					<div>
+						<label>Sexo: </label>
+						<label for="mas">Masculino</label>
+						<input id="mas"type="radio" name="sexo" value="1">
+
+						<label for="fe">Femenino</label>
+						<input id="fe"type="radio" name="sexo" value="2">
+					</div>
+					<legend>Datos de Usuario</legend>
+					<div class="espacio">
+						<label for="useuario" class="label">Nombre de Usuario</label>
+						<input id="usuario" type="text" name="usuario" placeholder="Usuario">
+					</div>
+					<div class="espacio">
+						<label for="email" class="label">email</label>
+						<input id="email" type="email" name="pass" placeholder="Escibe tu email">
+					</div>
+					<div class="espacio">
+						<label for="pass" class="label">Contraseña</label>
+						<input id="pass" type="password" name="pass" title="Contraseña" placeholder="Contraseña">
+					</div>
+					<div class="espacio">
+						<label for="pass" class="label">Confirme Contraseña</label>
+						<input id="pass" type="password" name="pass" title="Contraseña" placeholder="Contraseña">
+					</div>
+					<input id="boton" type="submit" value="Guardar">
+					<input type="submit" value="Cancelar">
+
+				</form>
+			</fieldset>
+		</section>
+	</div>
+	<footer class="margen-arriba">
+		<ul>
+			<li>Desarrollado por: Sandra Carrillo </li>
+		</ul>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/table.css">
+	<title>Facturación</title>
+</head>
+<body>
+	<div class="center-block quitar-float text-center espacio-arriba">
+		
+		<nav class="se-gris padding-largo">
+			<ul>
+				<a href="menu.html">Volver</a>
+				<a href="login.html">Cerrar Sesión</a>
+				<a href="index.html"class="espacio-derecha">Salir</a>
+			</ul>
+		</nav>
+		<section class="login">
+			<h1 class="pacifico blue">¡Bienvenido a tu pagina de facturación!</h1>
+			<img src="imagenes/factura.jpg">
+			<fieldset>
+				<legend>Factura</legend>
+				<form action="" method="POST" autocomplete="off">
+					<div class="espacio">
+						<label for="user" class="label">Nº de Factura</label>
+						<input id="user" type="number" name="pass" value=""placeholder="Ej: Nª0001" min="1" max="1000">
+					</div>
+					<div class="espacio">
+						<label for="pass" class="label">Fecha</label>
+						<input id="pass" type="date" name="pass" value="" placeholder="día/mes/año">
+					</div>
+					<div class="espacio">
+						<label for="nom" class="label">Nombre</label>
+						<input id="nom" type="text" name="pass" value="" title="Escriba aqui su nombre" placeholder="Nombre">
+					</div>
+					<div class="espacio">
+						<label for="pass" class="label">Apellido</label>
+						<input id="pass" type="text" name="pass"  placeholder="Apellido">
+					</div>
+					<div class="espacio">
+						<label for="pass" class="label">C.I</label>
+						<input id="pass" type="number" name="pass" placeholder="Cédula de Identidad" min="1" max="30000000">
+					</div>
+					<div class="espacio">
+						<label for="pass" class="label">Teléfono</label>
+						<input id="pass" type="number" name="pass" placeholder="Numero de teléfono">
+					</div>
+					<div class="espacio">
+						<label for="pass" class="label">Dirección</label>
+						<input id="pass" type="" name="pass" placeholder="Direccion">
+					</div>
+					<div>
+						<table>
+							<thead>
+								<tr>
+									<th>Cóigo</th>
+									<th>Cantidad</th>
+									<th>Precio por Unidad</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td id="codigo"></td>
+									<td type="number" min="1"></td>
+									<td type="number" min="1"class="derecha"> Bs</td>
+									<td  type="number"class="derecha"> Bs</td>
+								</tr>
+								<tr>
+									<td id="codigo"></td>
+									<td type="number" min="1"></td>
+									<td type="number" min="1"class="derecha"> Bs</td>
+									<td  type="number"class="derecha"> Bs</td>
+								</tr>
+								<tr>
+									<td id="codigo"></td>
+									<td type="number" min="1"></td>
+									<td type="number" min="1"class="derecha"> Bs</td>
+									<td  type="number"class="derecha"> Bs</td>
+								</tr>
+								<tr>
+									<td id="codigo"></td>
+									<td type="number" min="1"></td>
+									<td type="number" min="1"class="derecha"> Bs</td>
+									<td  type="number"class="derecha"> Bs</td>
+								</tr>
+								<tr>
+									<td id="codigo"></td>
+									<td type="number" min="1"></td>
+									<td type="number" min="1" class="derecha"> Bs</td>
+									<td  type="number"class="derecha"> Bs</td>
+								</tr>
+								<tr>
+									<td id="codigo"></td>
+									<td type="number" min="1"></td>
+									<td type="number" min="1"class="derecha"> Bs</td>
+									<td  type="number"class="derecha"> Bs</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<input type="submit" value="Guardar">
+					<input type="submit" value="Imprimir">
+					<input type="submit" value="Agregar">
+					<input type="submit" value="Cancelar">
+					
+				</form>
+			</fieldset>
+		</section>
+	</div>
+	<footer >
+		<ul class="no-lista">
+			<li>Desarrollado por: Sandra Carrillo</li>
+			</ul>
+	</footer>
+</body>
+</html>

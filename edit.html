@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Editar Producto</title>
+</head>
+<body>
+	<div class="center-block quitar-float text-center espacio-arriba">
+		
+		<nav class="se-gris padding-largo">
+			<ul>
+				<a href="menu.html">Inicio</a>
+				<a href="inventory.html">Volver</a>
+				<a href="index.html"class="espacio-derecha">Salir</a>
+			</ul>
+		</nav>
+		<section class="login">
+			<h1 class="pacifico blue">¡Bienvenido a tu pagina de facturación!</h1>
+			<img src="imagenes/factura.jpg">
+			<fieldset>
+				<legend>Editar Producto</legend>
+				<form action="inventory.html" method="POST" autocomplete="off">
+					<div class="espacio">
+						<label for="user" class="label">Código del producto</label>
+						<input id="user" type="" name="pass" value=""placeholder="Ej: 0001">
+					</div>
+					<div class="espacio">
+						<label for="pass" class="label">Descripción</label>
+						<input id="pass" type="text" name="pass" value="" placeholder="Descripción del producto">
+					</div>
+					<div class="espacio">
+						<label for="nom" class="label">Precio</label>
+						<input id="nom" type="text" name="pass" value="" title="Recuerde que el precio debe incluir el IVA" placeholder="Precio para la venta" min="0" max="1000000">
+					</div>
+					<input type="submit" value="Guardar Cambios"> 
+				</form>
+			</fieldset>
+		</section>
+	</div>
+	<footer >
+		<ul class="no-lista">
+			<li>Desarrollado por: Sandra Carrillo</li>
+			</ul>
+	</footer>
+</body>
+</html>
